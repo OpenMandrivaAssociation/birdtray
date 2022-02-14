@@ -16,6 +16,9 @@ BuildRequires:  pkgconfig(Qt5Svg)
 BuildRequires:  pkgconfig(Qt5Widgets)
 BuildRequires:  pkgconfig(Qt5X11Extras)
 
+# Don't make it hard dependency, because some people may want to use it with upstream Thunderbird prebuild by Mozilla.
+Recommends: thunderbird
+
 %description
 Birdtray is a free system tray notification for new mail for Thunderbird.
 
@@ -28,8 +31,10 @@ Birdtray is a free system tray notification for new mail for Thunderbird.
 
 %install
 %make_install -C build
+
+%find_lang %{name} --with-qt --all-name
   
-%files
+%files -f %{name}.lang
 %doc README.md
 %license LICENSE.txt
 %{_bindir}/birdtray
