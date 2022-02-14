@@ -7,6 +7,7 @@ Group:          Networking/Mail
 URL:            https://github.com/gyunaev/birdtray
 Source0:        https://github.com/gyunaev/birdtray/archive/v%{version}/%{name}-%{version}.tar.gz
 BuildRequires:  cmake
+BuildRequires:  qmake5
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Gui)
 BuildRequires:  pkgconfig(Qt5Help)
