@@ -1,7 +1,7 @@
 Summary:        Thunderbird tray and notification system
 Name:           birdtray
 Version:        1.9.0
-Release:        1
+Release:        2
 License:        GPLv3
 Group:          Networking/Mail
 URL:            https://github.com/gyunaev/birdtray
