@@ -39,7 +39,7 @@ Birdtray is a free system tray notification for new mail for Thunderbird.
 %doc README.md
 %license LICENSE.txt
 %{_bindir}/birdtray
-%{_datadir}/ulduzsoft/
+#{_datadir}/ulduzsoft/
 %{_datadir}/applications/com.ulduzsoft.Birdtray.desktop
 %{_iconsdir}/hicolor/*/apps/com.ulduzsoft.Birdtray.png
 %{_iconsdir}/hicolor/scalable/apps/com.ulduzsoft.Birdtray.svg
