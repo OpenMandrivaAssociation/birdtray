@@ -1,6 +1,6 @@
 Summary:        Thunderbird tray and notification system
 Name:           birdtray
-Version:        1.11.3
+Version:        1.11.4
 Release:        1
 License:        GPLv3
 Group:          Networking/Mail
